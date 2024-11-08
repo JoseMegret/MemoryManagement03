@@ -98,7 +98,8 @@ Each .py file in this project corresponds to a specific page replacement algorit
     optimal.py: Implementation of Optimal page replacement.
     wsclock.py: Implementation of WSClock page replacement.
 
-## Acknowledgments
+# Contributors
 
-    University of Puerto Rico: This project is part of the CCOM4017 Operating Systems course.
-    Professor's Guidance: The assignment instructions and example input files were provided by the course instructor.
+This project was developed as part of the Operating Systems course at the University of Puerto Rico, Río Piedras campus.
+
+    Student Name: José A. Megret Bonilla
