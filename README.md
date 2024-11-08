@@ -58,21 +58,21 @@ To run each algorithm, use the command-line syntax below, specifying:
 
 For example, to run each algorithm with 10 pages and test1.txt as the input file, use:
 
-python fifo.py 10 test1.txt
-python optimal.py 10 test1.txt
-python wsclock.py 10 5 test1.txt
+    python fifo.py 10 test1.txt
+    python optimal.py 10 test1.txt
+    python wsclock.py 10 5 test1.txt
 
 ### Input File Format
 
 The input file (access_sequence_file) should contain a sequence of memory access requests in the format R:<page_number> for reads or W:<page_number> for writes, separated by spaces or new lines. For instance:
 
-R:1 W:2 R:3 W:4 R:5
+    R:1 W:2 R:3 W:4 R:5
 
 ## Example Output
 
 Each algorithm outputs the total number of page faults that occurred during the simulation. For example:
 
-Total page faults (FIFO): 24
+    Total page faults (FIFO): 24
 
 ## Explanation of Each Algorithm
 ### FIFO (First-In-First-Out) Algorithm
