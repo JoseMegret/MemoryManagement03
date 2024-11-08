@@ -1,5 +1,5 @@
-Memory Management Project - Page Replacement Algorithms
-Overview
+# Memory Management Project - Page Replacement Algorithms
+## Overview
 
 This project simulates three page replacement algorithms commonly used in operating systems for memory management:
 
@@ -8,7 +8,7 @@ This project simulates three page replacement algorithms commonly used in operat
     WSClock Page Replacement
 
 Each algorithm simulates the management of physical memory by keeping a fixed number of pages in memory (num_pages) and replacing pages based on specific rules when memory is full. The goal is to observe the number of page faults that occur as a sequence of memory requests is processed.
-Algorithms
+## Algorithms
 1. FIFO (First-In-First-Out) Page Replacement
 
 The FIFO page replacement algorithm replaces the oldest page in memory whenever a new page is loaded, and memory is full. This algorithm uses a queue structure to keep track of pages in memory, ensuring that the oldest page (the first one in the queue) is removed when necessary.
@@ -30,12 +30,12 @@ The WSClock page replacement algorithm uses a circular approach and a reference 
     Implementation: The algorithm simulates a clock hand moving through memory to evaluate each page for replacement.
     Command: python wsclock.py <Number of physical memory pages> <tau> <access sequence file>
 
-Usage
-Requirements
+## Usage
+### Requirements
 
     Python 3.x
 
-Running Each Algorithm
+## Running Each Algorithm
 
 To run each algorithm, use the command-line syntax below, specifying:
 
@@ -46,11 +46,11 @@ To run each algorithm, use the command-line syntax below, specifying:
 
 python fifo.py <Number of physical memory pages> <access sequence file>
 
-Optimal Algorithm:
+### Optimal Algorithm:
 
 python optimal.py <Number of physical memory pages> <access sequence file>
 
-WSClock Algorithm:
+### WSClock Algorithm:
 
     python wsclock.py <Number of physical memory pages> <tau> <access sequence file>
 
